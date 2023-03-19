@@ -84,7 +84,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
  
 - Create a Client VM (Client-1)
- - Create a Virtual Machine
+  - Create a Virtual Machine
   - Add to Rescource Group: "Ad-lab"
   - Name: "Client-1"
   - Set to region: Use the same as the previous VM (East US)
