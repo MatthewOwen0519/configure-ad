@@ -272,7 +272,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Create additional users 
   - Login to DC-1 as jane_admin
   - Open Powershell_ise as an administrator
-  - Create a new File and paste contents of the provided script into the new File
+  - Create a new File and paste contents of the provided [script](https://github.com/MatthewOwen0519/script_AD_users/blob/main/README.md) into the new File
   - Run te script and observe the accounts being created
 
 </p>
