@@ -215,18 +215,46 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 
+<p> 
+<img src="https://i.imgur.com/x0xLSzv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
 - Join Client-1 to your domain (mydomain.com)
   - From the Azure Portal, set Client-1's DNS settings to the DC's private IP address
     - Click the Client-1 VM -> Networking -> DNS -> Custom -> insert private IP of DC-1
   - From the Azure Portal, restart Client-1
+
+</p>
+<br />
+
+<p> 
+<img src="https://i.imgur.com/x0xLSzv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
 - Login to Client-1 (Remote Desktop) as the original local admin (labuser) and joing it to the domain (computer will restart)
   - Settings -> System ->
+
+</p>
+<br />
+
+<p> 
+<img src="https://i.imgur.com/x0xLSzv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
 - Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers inside the "Computers" container on the root of the domain
 - Create a enw OU named "_CLIENTS" and drag Client-1 into it
 
 </p>
 <br />
 
+<p> 
+<img src="https://i.imgur.com/x0xLSzv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
 - Setup Remote Desktop for non-administrative users on Client-1
   - Log into Client-1 as mydomain.com\jane_admin and open system properties
     - Click "Remote Desktop" -> Allow "domain users" acess to remote desktop
