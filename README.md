@@ -35,6 +35,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+ 
 - Setup Domain Controler in Azure
   - Create a Virtual Machine
     - Create a Resource Group: "AD-lab" 
@@ -45,7 +46,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
     - Check the License Agreement box
     - Validate and create    
       - Take noe of the Resouce Group and Virtual Netowrk (Vnet) that get created at this time
-  - Set Domain Controller's NIC Private IP address to be static
+  
+- Set Domain Controller's NIC Private IP address to be static
   
 </p>
 <br />
