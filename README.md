@@ -143,19 +143,32 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Install Active Directory
  - Login to DC-1 and install Active Directory Domain Services 
    - Add Roles and Features on the Server Manager window -> Follow the default install prompts until "select a server from the server pool" -> [x] Active Directory Domain Services -> Follow all default install prompts, checking required restart boxes until allowed to install -> Install
+
+<p>
+<img src="https://i.imgur.com/cUZ18G3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+
+- Post Deployment Configuration
+ - Click the flag in the Server Manager -> Promote this server to a Domain Controller -> Add a new forest "mydomain.com" -> next 
+
+<p> 
+<img src="https://i.imgur.com/N52HG0r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+
+- Input a password -> next
+  - Follow default prompts until able to install -> Install (this may take a few minutes)
+
+<p>
+<img src="https://i.imgur.com/P04xqsZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
  
-<img src="https://i.imgur.com/P04xqsZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/P04xqsZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/P04xqsZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
+<p> 
 <img src="https://i.imgur.com/P04xqsZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
