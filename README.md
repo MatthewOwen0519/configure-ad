@@ -45,7 +45,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
     - Minimum of 2 cpu
     - Check the License Agreement box
     - Validate and create    
-      - Take noe of the Resouce Group and Virtual Netowrk (Vnet) that get created at this time
+      - Take note of the Resouce Group and Virtual Netowrk (Vnet) that get created at this time
   
 - Set Domain Controller's NIC Private IP address to be static
   
