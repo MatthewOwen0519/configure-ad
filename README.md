@@ -60,7 +60,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+ - Create a Client VM (Client-1)
+ - Create a Virtual Machine
+  - Add to Rescource Group: "Ad-lab"
+  - Name: "Client-1"
+  - Set to region: Use the same as the previous VM (East US)
+  - Set to use an image of Windows 10
+  - Minimum of 2 cpu
+  - Check the License Agreement box
+  - Validate and create
+    - Ensure that this VM is in the same Vnet as DC-1
+ 
 </p>
 <br />
 
@@ -68,6 +79,29 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+ - Ensure Connectivity between the client and Domain Controller
+  - Login to Client-1 with Remote Desktop and ping DC-1's private IP
+ 
+</p>
+<br />
+ 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
+ - Login to the Domain Controller and enable ICMPv4 on the local Windows Firewall
+ 
+</p>
+<br />
+ 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p> 
+ 
+ - Check back at Clien-1 to see the ping succeed
+ 
 </p>
 <br />
