@@ -58,27 +58,31 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
  
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DCPtIyi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 - Set Domain Controller's NIC Private IP address to be static
- - Click on the DC-1 VM in the Virtual Machine tab
- - Click on the Networking tab
- - Click on the NIC labled "Network Interface: ******"
- - Click IP Configurations
- - Click Ipconfig1
- - Change the Assignment from Dynamic to Static and save (This maintains one IP address to stay assigned to our Domain Controller)
+  - Click on the DC-1 VM in the Virtual Machine tab
+  - Click on the Networking tab
+  - Click on the NIC labled "Network Interface: ******"
+  - Click IP Configurations
+  - Click Ipconfig1
+  - Change the Assignment from Dynamic to Static and save (This maintains one IP address to stay assigned to our Domain Controller)
  
   
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6qp3XeL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+<p>
+<img src="https://i.imgur.com/kklzGBh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
 - Create a Client VM (Client-1)
  - Create a Virtual Machine
   - Add to Rescource Group: "Ad-lab"
