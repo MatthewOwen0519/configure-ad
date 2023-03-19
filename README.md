@@ -85,14 +85,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
  
 - Create a Client VM (Client-1)
   - Create a Virtual Machine
-  - Add to Rescource Group: "Ad-lab"
-  - Name: "Client-1"
-  - Set to region: Use the same as the previous VM (East US)
-  - Set to use an image of Windows 10
-  - Minimum of 2 cpu
-  - Check the License Agreement box
-  - Validate and create
-    - Ensure that this VM is in the same Vnet as DC-1
+   - Add to Rescource Group: "Ad-lab"
+   - Name: "Client-1"
+   - Set to region: Use the same as the previous VM (East US)
+   - Set to use an image of Windows 10
+   - Minimum of 2 cpu
+   - Check the License Agreement box
+   - Validate and create
+     - Ensure that this VM is in the same Vnet as DC-1
  
 </p>
 <br />
