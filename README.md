@@ -166,6 +166,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Input a password -> next
   - Follow default prompts until able to install -> Install (this may take a few minutes)
+- Restart and log back into DC-1 as user: mydomain.com\labuser
 
 <p>
 <img src="https://i.imgur.com/P04xqsZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
