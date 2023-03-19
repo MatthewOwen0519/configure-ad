@@ -28,6 +28,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Create Client (Client-1) in Azure
 - Ensure Connectivity between client and Domain Controller
 - Install Active Directory
+- Create an Admin and Normal User Account in AD
+- Join Client to the Domain
+- Setup Remote Desktop for non-administrative users on the Client
+- Generate additional users through a script with Powershell
 
 <h2>Deployment and Configuration Steps</h2>
 
