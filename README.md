@@ -36,7 +36,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VypWiOY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/UyI78Ek.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
@@ -47,7 +51,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
     - Set to a region: "East US"
     - Set to use an image of Windows Server 2022
     - Minimum of 2 cpu
-    - Check the License Agreement box
+    - Create a user name: labuser
+    - Create a password
     - Validate and create    
       - Take note of the Resouce Group and Virtual Netowrk (Vnet) that get created at this time
   
