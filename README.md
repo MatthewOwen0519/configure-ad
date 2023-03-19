@@ -80,7 +80,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>
 
- - Ensure Connectivity between the client and Domain Controller
+- Ensure Connectivity between the client and Domain Controller
   - Login to Client-1 with Remote Desktop and ping DC-1's private IP
  
 </p>
