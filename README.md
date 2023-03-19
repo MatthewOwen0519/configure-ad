@@ -145,6 +145,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
    - Add Roles and Features on the Server Manager window -> Follow the default install prompts until "select a server from the server pool" -> [x] Active Directory Domain Services -> Follow all default install prompts, checking required restart boxes until allowed to install -> Install
 
 <p>
+<img src="https://i.imgur.com/Ygy2Lx3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p> 
+<p>
 <img src="https://i.imgur.com/cUZ18G3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
