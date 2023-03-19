@@ -78,6 +78,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
 - Create a Client VM (Client-1)
  - Create a Virtual Machine
   - Add to Rescource Group: "Ad-lab"
