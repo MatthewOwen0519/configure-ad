@@ -241,7 +241,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p> 
-<img src="https://i.imgur.com/x0xLSzv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wga0Mng.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
@@ -252,11 +252,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p> 
-<img src="https://i.imgur.com/x0xLSzv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OEegmIq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
 - Setup Remote Desktop for non-administrative users on Client-1
-  - Log into Client-1 as mydomain.com\jane_admin and open system properties
-    - Click "Remote Desktop" -> Allow "domain users" acess to remote desktop
+  - Log into Client-1 as mydomain.com\jane_admin
+    - Right-click start -> System -> Remote Desktop -> "Select Users that can remotley access this PC" -> add -> "domain users" -> check names -> Ok -> Ok
   - You can now log into Client-1 as a normal, non-adminstative user (This would normlly be done with a Group Policy to change multiple systems at once)
