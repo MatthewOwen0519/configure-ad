@@ -144,6 +144,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
  - Login to DC-1 and install Active Directory Domain Services 
    - Add Roles and Features on the Server Manager window -> Follow the default install prompts until "select a server from the server pool" -> [x] Active Directory Domain Services -> Follow all default install prompts, checking required restart boxes until allowed to install -> Install
 
+</p>
+<br /> 
+ 
 <p>
 <img src="https://i.imgur.com/Ygy2Lx3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -157,6 +160,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Post Deployment Configuration
  - Click the flag in the Server Manager -> Promote this server to a Domain Controller -> Add a new forest "mydomain.com" -> next 
+
+</p>
+<br />
 
 <p> 
 <img src="https://i.imgur.com/N52HG0r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -182,6 +188,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
     - Tools -> Active directory Users and Computers -> Right-click "mydomain.com" -> new -> Organizational Unit (OU) -> _EMPLOYEES -> Ok
   - Create a new OU named "_ADMINS"
     - Right-click "mydomain.com" -> new -> OU -> _ADMINS -> Ok
+</p>
+<br />
  
 <p> 
 <img src="https://i.imgur.com/n9Vz1A6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -191,11 +199,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
  - Create a enw employee named "Jane Doe" (same password) with the username of "jane_admin"
    - Right-click "_EMPLOYEES" -> new -> user -> fill in information -> next -> Input password (uncheck to force a password change at login for lab purposes) -> next -> Finish
  
+</p>
+<br />
+ 
 <p> 
-<img src="https://i.imgur.com/n9Vz1A6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/x0xLSzv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
  - Add jane_admin to the "Domain Admins" Security group 
-   - Log out/close the Remote Desktop connection to DC-1 and log back in as "mydomain.com\jane_admin"
+   - Double-click "Jane Doe" -> Member of -> add -> Domain Admin -> Check Name -> Ok -> Apply -> Ok
+ - Log out/close the Remote Desktop connection to DC-1 and log back in as "mydomain.com\jane_admin"
      - Use jane_admin as your admin account from now on
+
+</p>
+<br />
