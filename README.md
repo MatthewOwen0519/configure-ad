@@ -62,7 +62,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>
 
- - Set Domain Controller's NIC Private IP address to be static
+- Set Domain Controller's NIC Private IP address to be static
  - Click on the DC-1 VM in the Virtual Machine tab
  - Click on the Networking tab
  - Click on the NIC labled "Network Interface: ******"
@@ -79,7 +79,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>
 
- - Create a Client VM (Client-1)
+- Create a Client VM (Client-1)
  - Create a Virtual Machine
   - Add to Rescource Group: "Ad-lab"
   - Name: "Client-1"
