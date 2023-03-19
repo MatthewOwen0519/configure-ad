@@ -214,3 +214,20 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 </p>
 <br />
+
+- Join Client-1 to your domain (mydomain.com)
+  - From the Azure Portal, set Client-1's DNS settings to the DC's private IP address
+    - Click the Client-1 VM -> Networking -> DNS -> Custom -> insert private IP of DC-1
+  - From the Azure Portal, restart Client-1
+- Login to Client-1 (Remote Desktop) as the original local admin (labuser) and joing it to the domain (computer will restart)
+  - Settings -> System ->
+- Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers inside the "Computers" container on the root of the domain
+- Create a enw OU named "_CLIENTS" and drag Client-1 into it
+
+</p>
+<br />
+
+- Setup Remote Desktop for non-administrative users on Client-1
+  - Log into Client-1 as mydomain.com\jane_admin and open system properties
+    - Click "Remote Desktop" -> Allow "domain users" acess to remote desktop
+  - You can now log into Client-1 as a normal, non-adminstative user (This would normlly be done with a Group Policy to change multiple systems at once)
