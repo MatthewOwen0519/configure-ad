@@ -98,32 +98,33 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7kK0GiT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 - Ensure Connectivity between the client and Domain Controller
-  - Login to Client-1 with Remote Desktop and ping DC-1's private IP
+  - Login to Client-1 with Remote Desktop and ping DC-1's private IP (It should time out)
  
 </p>
 <br />
  
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/P04xqsZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
  - Login to the Domain Controller and enable ICMPv4 on the local Windows Firewall
+   - Windows Defender Firewall -> Advanced Settings -> Inbound Rules -> Sort by Protocol and locate ICMPv4 -> [X] Core Network Diagnostics - ICMP Echo Request (ICMPv4 -out) There are two of these to enable, one private, one Domain 
  
 </p>
 <br />
  
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6oiQzR8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p> 
  
- - Check back at Clien-1 to see the ping succeed
+ - Check back at Client-1 to see the ping succeed
  
 </p>
 <br />
