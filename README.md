@@ -54,7 +54,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
     - Create a user name: labuser
     - Create a password
     - Validate and create    
-      - Take note of the Resouce Group and Virtual Netowrk (Vnet) that get created at this time
+      - Take note of the Resouce Group and Virtual Network (Vnet) that get created at this time
 
  
 <p>
