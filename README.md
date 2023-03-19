@@ -172,7 +172,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img src="https://i.imgur.com/P04xqsZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CyVBlf2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
@@ -184,12 +184,17 @@ This tutorial outlines the implementation of on-premises Active Directory within
     - Right-click "mydomain.com" -> new -> OU -> _ADMINS -> Ok
  
 <p> 
-<img src="https://i.imgur.com/P04xqsZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/n9Vz1A6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
  - Create a enw employee named "Jane Doe" (same password) with the username of "jane_admin"
-   - Right-click "_EMPLOYEES" -> new -> user -> fill in information -> next -> Input password (uncheck to force a password change at login for lab purposes) -> next -> finish
+   - Right-click "_EMPLOYEES" -> new -> user -> fill in information -> next -> Input password (uncheck to force a password change at login for lab purposes) -> next -> Finish
+ 
+<p> 
+<img src="https://i.imgur.com/n9Vz1A6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
  - Add jane_admin to the "Domain Admins" Security group 
    - Log out/close the Remote Desktop connection to DC-1 and log back in as "mydomain.com\jane_admin"
